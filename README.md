@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🧑‍💻 Deeti Laxmi Chandra Siddharth — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A personal portfolio website built with React, showcasing my projects, skills, and background in AI/ML and Computer Science.
 
-## Available Scripts
+🔗 **Live Demo:** [d-l-c-s.github.io/Portfolio](https://D-L-C-S.github.io/Portfolio)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React** — UI framework
+- **React Router DOM** — client-side routing with HashRouter
+- **CSS** — custom styling with CSS variables
+- **GitHub Pages** — deployment via `gh-pages`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Home** — About me, personal details, education, research interests, skills, and contact
+- **Projects** — AI/ML projects with GitHub links and descriptions
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone the repo
+git clone https://github.com/D-L-C-S/Portfolio.git
+cd Portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `npm run eject`
+# Start dev server
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Opens at `http://localhost:3000/portfolio`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is deployed using GitHub Pages.
 
-## Learn More
+```bash
+npm run deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deploys the production build to the `gh-pages` branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Projects Featured
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Project                                               | Stack                             | Link                                                                                   |
+| ----------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------------------- |
+| medRxiv Knowledge Graph                               | NLP, Python, Neo4j                | [GitHub](https://github.com/D-L-C-S/medRxiv-knowledge-graph)                           |
+| OPSD PowerDesk – Load Forecasting & Anomaly Detection | SARIMA, LSTM, LightGBM, Streamlit | [GitHub](https://github.com/D-L-C-S/OPSD-PowerDesk-Load-Forecasting-Anomaly-Detection) |
+| Satellite Land Classification                         | CNN, PyTorch, Keras               | IBM AI Engineering Course                                                              |
+| RAG Q&A System                                        | LangChain, Chroma, LLMs           | IBM AI Engineering Course                                                              |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contact
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📧 [siddharthdeeti06@gmail.com](mailto:siddharthdeeti06@gmail.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/siddharth-deeti)
+- 💻 [GitHub](https://github.com/D-L-C-S)
+- 🧩 [LeetCode](https://leetcode.com/u/Dlcs-/)
