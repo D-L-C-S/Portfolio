@@ -2,7 +2,7 @@
 
 A personal portfolio website built with React, showcasing my projects, skills, and background in AI/ML and Computer Science.
 
-🔗 **Live Demo:** [d-l-c-s.github.io/Portfolio](https://D-L-C-S.github.io/Portfolio)
+🔗 **Live Demo:** [D-L-C-S.github.io/Portfolio](https://D-L-C-S.github.io/Portfolio)
 
 ---
 
