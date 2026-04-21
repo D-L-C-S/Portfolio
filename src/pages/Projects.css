@@ -1,0 +1,237 @@
+.projects-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.projects-header {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 2.5rem;
+}
+
+.projects-label {
+  font-family: "DM Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.projects-heading {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.04em;
+  margin-bottom: 0.75rem;
+}
+
+.projects-sub {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 520px;
+}
+
+/* Project Cards */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.75rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 2rem 2rem 2rem 1.75rem;
+  transition:
+    border-color 0.25s,
+    transform 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 0;
+  background: var(--accent);
+  transition: height 0.3s ease;
+  border-radius: 0 0 3px 0;
+}
+
+.project-card:hover::before {
+  height: 100%;
+}
+
+.project-card:hover {
+  border-color: rgba(0, 230, 180, 0.25);
+  transform: translateX(4px);
+}
+
+.project-card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  min-width: 56px;
+}
+
+.project-emoji {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.project-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-date {
+  font-family: "DM Mono", monospace;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.4;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  letter-spacing: 0.05em;
+}
+
+.project-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.9rem;
+}
+
+.project-title {
+  font-family: "Syne", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.project-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.project-tag {
+  background: rgba(0, 230, 180, 0.07);
+  border: 1px solid rgba(0, 230, 180, 0.18);
+  color: var(--accent);
+  font-family: "DM Mono", monospace;
+  font-size: 0.68rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 5px;
+  letter-spacing: 0.04em;
+}
+
+.project-desc {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.project-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.project-highlights li {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.project-highlights li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 0.75rem;
+}
+
+.project-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: "DM Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.45rem 1rem;
+  border-radius: 7px;
+  letter-spacing: 0.04em;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.project-link:hover {
+  color: var(--accent);
+  border-color: rgba(0, 230, 180, 0.3);
+}
+
+.course-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: "DM Mono", monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  padding: 0.45rem 1rem;
+  border-radius: 7px;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  .project-card-left {
+    flex-direction: row;
+    align-items: center;
+  }
+  .project-date {
+    writing-mode: horizontal-tb;
+    transform: none;
+  }
+}
