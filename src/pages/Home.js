@@ -139,13 +139,6 @@ function Home() {
             </div>
           </div>
           <div className="detail-card">
-            <span className="detail-icon">📱</span>
-            <div>
-              <p className="detail-label">Phone</p>
-              <p className="detail-value">+91 8977295044</p>
-            </div>
-          </div>
-          <div className="detail-card">
             <span className="detail-icon">✉️</span>
             <div>
               <p className="detail-label">Personal Email</p>
@@ -166,13 +159,6 @@ function Home() {
             <div>
               <p className="detail-label">Location</p>
               <p className="detail-value">Hyderabad, India</p>
-            </div>
-          </div>
-          <div className="detail-card">
-            <span className="detail-icon">🏆</span>
-            <div>
-              <p className="detail-label">LeetCode</p>
-              <p className="detail-value">250+ Problems Solved</p>
             </div>
           </div>
         </div>
